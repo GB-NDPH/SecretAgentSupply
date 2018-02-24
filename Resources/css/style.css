@@ -1,3 +1,36 @@
-p{
-	color: red;
+html{
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+/* logo and title */
+.logo{
+	background-color: black;
+}
+.logo img{
+	height: 1.5rem;
+	padding-left: 0.5rem;
+	padding-right: 1rem;
+}
+.logo h3{
+	font-size: 1rem;
+	color: white;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+}
+
+/* main banner */
+
+/* navigation */
+.navigation{
+	width: 100%;
+	background-color: Firebrick;
+	font-family: Helvetica;
+	color: white;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	}
+.nav{
+	display: inline-flex;
+	justify-content: space-around;
 }
