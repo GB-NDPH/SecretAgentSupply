@@ -19,7 +19,14 @@ html{
 	padding-bottom: 0.66rem;
 }
 
+/* container */
+
+
+
 /* main banner */
+.main-banner img{
+	width: 100%;
+}
 
 /* navigation */
 .navigation{
@@ -40,24 +47,119 @@ nav span{
 .product-grid{
 	display: flex;
 	justify-content: space-around;
+	padding: 3rem 5rem;
+	width: 960px;
 }
 /* column-left */
+.column-left{
+	width: 30%;
+}
 .column-left img{
 	height: 9rem;
 	border: solid black 4px;
 	padding: 2rem;
 }
+.column-left h3{
+	font-style: Helvetica;
+	font-size: 1rem;
+	color: white;
+	background-color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
 
 /* column-centre */
+.column-centre{
+	width: 30%;
+}
+
 .column-centre img{
 	height: 9rem;
 	border: solid black 4px;
 	padding: 2rem;
 }
+.column-centre h3{
+	font-family: Helvetica;
+	font-size: 1rem;
+	color: white;
+	background-color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
 
 /*column-right */
+.column-right{
+	width: 30%;
+}
 .column-right img{
 	height: 9rem;
 	border: solid black 4px;
 	padding: 2rem;
+}
+.column-right h3{
+	font-family: Helvetica;
+	font-size: 1rem;
+	color: white;
+	background-color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
+
+/* location and hours */
+
+.location-hours{
+	display: inline-flex;
+	padding-bottom: 3.5rem;
+}
+.location .hours{
+	display: inline-flex;
+	justify-content: space-between;
+	padding left: 5rem;
+	padding-right: 5rem;
+}
+.location-hours .location{
+	padding-left: 2.5rem;
+	width: 9rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.location h3{
+	color: white;
+	font-size: 1rem;
+	background-color: black;
+	padding: 1rem 2rem;
+}
+.location p{
+	color: black;
+	font-size: 1 rem;
+}
+
+.location-hours .hours{
+	width: 9rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.hours h3{
+	color: white;
+	font-size: 1rem;
+	background-color: black;
+	padding: 1rem 2rem;
+}
+.hours p{
+	color: black;
+	font-size: 1rem;
+}
+/* footer */
+.footer{
+	width: 100%;
+	background-color: black;
+	height: 5rem;
+}
+.footer h3{
+	color: white;
+	text-align: left;
+	padding: 2.5rem;
 }
