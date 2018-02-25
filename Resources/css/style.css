@@ -30,7 +30,34 @@ html{
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 	}
-.nav{
+nav span{
 	display: inline-flex;
 	justify-content: space-around;
+	padding-left: 5rem;
+}
+
+/* product grid */
+.product-grid{
+	display: flex;
+	justify-content: space-around;
+}
+/* column-left */
+.column-left img{
+	height: 9rem;
+	border: solid black 4px;
+	padding: 2rem;
+}
+
+/* column-centre */
+.column-centre img{
+	height: 9rem;
+	border: solid black 4px;
+	padding: 2rem;
+}
+
+/*column-right */
+.column-right img{
+	height: 9rem;
+	border: solid black 4px;
+	padding: 2rem;
 }
